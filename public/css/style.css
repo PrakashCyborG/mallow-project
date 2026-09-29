@@ -1,0 +1,148 @@
+body {
+    background: #f5f7fa;
+    color: #273445;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #1e293b;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #dbe2ea;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.btn-primary {
+    background: #2874b8;
+    border-color: #2874b8;
+}
+
+.btn-success {
+    background: #12803c;
+    border-color: #12803c;
+}
+
+.low-stock-box {
+    background: #fffbed;
+    border: 1px solid #e58a00;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.billing-heading {
+    background: #1e293b;
+    color: #fff;
+    padding: 18px 24px;
+}
+
+.billing-heading p {
+    color: #aebbd0;
+}
+
+.billing-section {
+    background: #fff;
+    border: 1px solid #dbe2ea;
+    border-radius: 6px;
+    padding: 24px;
+}
+
+.billing-section h2 {
+    color: #26374b;
+    font-weight: 700;
+}
+
+.billing-table {
+    min-width: 620px;
+}
+
+.billing-table th {
+    background: #e6edf5;
+    color: #34465d;
+}
+
+.billing-table td {
+    vertical-align: middle;
+}
+
+.quantity-column {
+    width: 100px;
+}
+
+.stock-note {
+    display: block;
+    min-height: 18px;
+    padding-top: 3px;
+}
+
+.low-stock-panel {
+    background: #fffbed;
+    border: 1px solid #df8a12;
+    border-radius: 6px;
+    color: #704414;
+    padding: 20px;
+}
+
+.low-stock-panel h2 {
+    color: #704414;
+}
+
+.low-stock-item {
+    align-items: center;
+    border-bottom: 1px solid #eadbb9;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.low-stock-item:last-child {
+    border-bottom: 0;
+}
+
+.payment-summary {
+    background: #f0f4f8;
+    border: 1px solid #ccd6e2;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 5px 0;
+}
+
+.summary-total {
+    border-top: 1px dashed #aab6c5;
+    font-size: 1.1rem;
+    margin-top: 8px;
+    padding-top: 14px;
+}
+
+.summary-total strong {
+    color: #2874b8;
+}
+
+.change-line {
+    border-top: 1px solid #ccd6e2;
+    padding-top: 14px;
+}
+
+@media (max-width: 575.98px) {
+    .billing-heading,
+    .billing-section {
+        padding: 16px;
+    }
+
+    .billing-heading {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
